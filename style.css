@@ -1,5 +1,9 @@
 /* add font */
 @import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+@font-face {
+    font-family: "tc";
+    src: url("./STYuanTC.woff");
+}
 
 /* bg setting */
 img{
@@ -13,7 +17,7 @@ img{
 }
 
 body{
-    font-family: cwTeXYen, YouYuan;
+    font-family: tc, cwTeXYen, YouYuan;
 }
 
 
@@ -112,7 +116,7 @@ body p{
     width: 30%;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 5px 15px 40px 0px rgba(0,0,0,0.79);
+    box-shadow: 12px 12px 40px 0px rgba(0,0,0,0.22);
 
 }
 
@@ -123,7 +127,7 @@ body p{
     width: 30%;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 5px 15px 40px 0px rgba(0,0,0,0.79);
+    box-shadow: 12px 12px 40px 0px rgba(0,0,0,0.22);
 }
 
 
