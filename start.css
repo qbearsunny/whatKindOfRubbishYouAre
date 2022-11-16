@@ -1,0 +1,62 @@
+/* add font */
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexyen.css");
+@font-face {
+  font-family: "tc";
+  src: url("./STYuanTC.woff");
+}
+
+/* bg setting */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: tc, cwTeXYen, YouYuan;
+  color: rgb(84, 92, 102);
+}
+
+.bigFatContainer {
+  background-image: url(./start-page/start3x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.happyjai {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 160px;
+}
+
+.helloframe {
+  padding: 10px 60px;
+  margin: 0px auto;
+  background-color: rgb(240, 241, 242);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 250px;
+}
+
+.helloframe p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.helloframe button {
+  color: aliceblue;
+  background-color: #535c67;
+  margin: 3px 20px;
+  padding: 5px 30px;
+  border-radius: 15px;
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+}
