@@ -4,18 +4,18 @@
   font-family: "tc";
   src: url("./STYuanTC.woff");
 }
-
+/* -------------------------------------------------- */
 /* bg setting */
-
-
 body {
   font-family: tc, cwTeXYen, YouYuan;
-  color: rgb(84, 92, 102);  
+  color: rgb(84, 92, 102);
   /* padding: 0px;
   margin: 0px; */
 }
-
-.bigFatContainer {
+/* bg setting */
+/* -------------------------------------------------- */
+/* page bg setting */
+.startPage {
   background-image: url(./start-page/start-up.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +25,30 @@ body {
   justify-content: center;
 }
 
+.questionPage {
+  background-image: url(./start-page/start-up.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.resultPage {
+  background-image: url(./Result_page_BG/Result_煙頭.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  position: relative;
+}
+/* page bg setting */
+/* -------------------------------------------------- */
+/* start page */
 .happyjai {
   position: absolute;
   bottom: 5px;
@@ -55,7 +79,7 @@ body {
   background-color: #535c67;
   text-align: center;
   margin: 10px 0px;
-  padding: 10px 1px; 
+  padding: 10px 1px;
   border-radius: 15px;
   text-decoration: none;
   box-shadow: none;
@@ -79,3 +103,138 @@ body {
   position: absolute;
   bottom: 5px;
 }
+/* start page */
+/* -------------------------------------------------- */
+/* result page */
+
+
+/* the result photo */
+.resultPhoto {
+  width: 250px;
+  position: absolute;
+  /* margin-left: 60px;
+  margin-top: -235px; */
+  right: 10px;
+  top: 60px;
+  z-index: 2;
+}
+/* the result photo */
+
+/* start of the info white container */
+.containerii {
+  width: 100vw;
+  background-color: white;
+  margin-top: 160px;
+  /* margin-left: 0px; */
+  border-top-left-radius: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  padding: 70px 60px 70px 70px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  position: relative;
+  /* margin-bottom: 80px; */
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(84, 92, 102);
+}
+
+.NO {
+  position: absolute;
+  right: -70px;
+  font-weight: 900;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 30px;
+  padding-right: 100px;
+  color: aliceblue;
+  background-color: rgb(207, 129, 96);
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.description {
+  margin-bottom: 40px;
+  color: rgb(84, 92, 102);
+}
+
+.others {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  color: rgb(84, 92, 102);
+}
+
+.others img {
+  width: 100%;
+}
+
+.frd {
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 12px 12px 40px 0px rgba(0, 0, 0, 0.22);
+}
+
+.worse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 12px 12px 40px 0px rgba(0, 0, 0, 0.22);
+}
+
+/* start of hill suggestion */
+.hill {
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 10px 0px;
+  box-shadow: 12px 12px 40px 0px rgba(0, 0, 0, 0.22);
+}
+
+.hill p {
+  margin: 0 0;
+}
+
+.hillLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hillRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.suggestion {
+  margin-bottom: 20px;
+}
+/* result page */
+/* -------------------------------------------------- */
