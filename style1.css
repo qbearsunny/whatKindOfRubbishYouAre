@@ -1,0 +1,124 @@
+/* add font */
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+@font-face {
+    font-family: "tc";
+    src: url("./STYuanTC.woff");
+}
+
+/* bg setting */
+img{
+    width:100%
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: tc, cwTeXYen, YouYuan;
+}
+
+
+body p{
+    color: rgb(84, 92, 102);
+}
+
+/* bg big container */
+.bigFatContainer{
+    position: relative;
+    height: 100%;
+}
+
+.qphoto1{
+    position: absolute;
+    height: 260px;
+}
+
+.content{
+    position: relative;
+    margin: 0;
+    top:170px;
+    /* width: 100vw; */
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 40px;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answers{
+    margin-top: 2rem;
+}
+
+.answerslist > *:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.answersitem{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    gap: 1rem;
+    box-shadow: 0 0 3rem -0.5rem rgb(0, 0 ,0, 0.15);
+    border-radius: 105px;
+    user-select: none;
+    transition: 0.2s;
+}
+
+
+
+.answernumber{
+    width: 3rem;
+    /* aspect-ratio: 1; */
+    border-radius: 50%;
+
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+
+    background-color: #ffd233;
+    scale: 1.2;
+}
+
+.answersitem:active{
+    background-color:darkgrey;
+}
+
+/* 
+.optionNO{
+    background-color: rgb(240, 225, 10);
+    padding: 15px;
+    border-radius: 90px;
+    margin-right: 30px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-evenly;
+
+}
+
+.question{
+    margin-bottom: 10px;
+}
+
+.hi{
+    display: flex;
+    align-items: center;
+}
+
+.o{
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom-right-radius: 20px ;
+    border-top-right-radius: 20px;
+    box-shadow: 12px 12px 40px 0px rgba(0,0,0,0.22);
+    height: 30px;
+} */
