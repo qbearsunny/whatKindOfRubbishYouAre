@@ -60,3 +60,15 @@ body {
   box-shadow: none;
   border: none;
 }
+
+.tri{
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top: 0;
+  border-bottom: 60px solid rgb(240, 241, 242);
+  position: absolute;
+  bottom: -30px;
+  right: 30px;
+  transform: rotateZ(150deg);
+}
