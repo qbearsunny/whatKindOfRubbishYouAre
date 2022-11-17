@@ -1,39 +1,40 @@
-//fake var and dom cos not done html yet
-
+//find the html element
 const startButton = document.querySelector('.startBTN')
+const container = ocument.querySelector('.bigFatContainer')
 
 
+//question
 const question = [
     {
-    questionText: '你喺選擇行山嘅時候會唔會預先制訂計劃行程？',
+    questionText: '你行山之前會唔會規劃行程？',
     answers: [
-        { text: '會啊，寫得詳細啲清楚啲啊嘛', score: 1 },
-        { text: '點會呀 呢啲即興就行得㗎喇', score: 2 },
-        { text: '朋友約就去', score: 3 }
+        { text: '會啊，做足功課最放心！', score: 1 },
+        { text: '唔會，即興行山最開心！', score: 2 },
+        { text: '朋友就係我嘅指南針，我負責出現就得～', score: 3 }
     ]
     },
     {
-        questionText: '你覺得咩嘢係行山最重要呢？',
+        questionText: '你認為行山前最重要嘅事前準備係⋯',
         answers: [
-            { text: '健康休息好嘅身體', score: 2 },
-            { text: '同朋友分享嘅便當', score: 3 },
-            { text: '最pro嘅裝備', score: 1 }
+            { text: '身體狀況良好，體力充沛', score: 2 },
+            { text: '工欲善其事，必先利其器，梗係買齊最專業嘅行山套裝', score: 3 },
+            { text: '要帶足夠食水同糧食，隨時補充能量', score: 1 }
         ]
     },
     {
-        questionText: '你比較鍾意一個點樣嘅環境？',
+        questionText: '你比較鍾意以下邊一個行山情景？',
         answers: [
-            { text: '一個人感受大自然', score: 1 },
-            { text: '搵幾個志同道合嘅好朋友', score: 3 },
-            { text: '同另一半一齊山上二人世界', score: 2 }
+            { text: '一個人行山，漫步欣賞自然美景', score: 1 },
+            { text: '搵好友結伴同行，令旅程更歡暢', score: 3 },
+            { text: '同另一半一齊行山，感情升溫', score: 2 }
         ]
     },
     {
-        questionText: '行到一半你覺得好攰你決定？',
+        questionText: '行到好攰但仲有一半路程，你決定？',
         answers: [
-            { text: '休息一陣 再行過', score: 2 },
-            { text: '留意下身邊同行嘅攰唔攰攰再決定', score: 3 },
-            { text: '落山走', score: 1 }
+            { text: '休息一陣再行過', score: 2 },
+            { text: '睇下身邊嘅同行意願如何', score: 3 },
+            { text: '原路折返，落山走人', score: 1 }
         ]
     },
     {
@@ -82,7 +83,25 @@ const question = [
     }
 ]
 
+//javascript var
+let playerScore = 0;
+switch (playerScore) {
+    case playerScore
+}
 
-    let playerScore = 0;
 
-startButton
+let countScore = () => {
+
+}
+
+let toQuestionPage = () => {
+    
+}
+
+let questionInHtml = 
+
+container.insertAdjacentHTML('beforeend', questionInHtml)
+
+startButton.addEventListener(click){
+
+}
