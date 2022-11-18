@@ -1,92 +1,107 @@
 /* add font */
-@import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexyen.css");
 @font-face {
-    font-family: "tc";
-    src: url("./STYuanTC.woff");
+  font-family: "tc";
+  src: url("./STYuanTC.woff");
 }
 
 /* bg setting */
-img{
-    width:100%
+img {
+  width: 100%;
 }
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing:border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: tc, cwTeXYen, YouYuan;
+body {
+  font-family: tc, cwTeXYen, YouYuan;
 }
 
-
-body p{
-    color: rgb(84, 92, 102);
+body p {
+  color: rgb(84, 92, 102);
 }
+
+/* .bkgp {
+  width: 100%;
+  background-image: url("/Question_page/qp-photos-3x/qp-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
 
 /* bg big container */
-.bigFatContainer{
-    position: relative;
-    height: 100%;
+.qbigFatContainer {
+  /* position: absolute;
+  top: 0px; */
+  height: 100vh;
+  background-image: url("/Question_page/qp-photos-3x/qp-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.qphoto1{
-    position: absolute;
-    height: 260px;
+.qcontainer {
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  margin-top: 250px;
+  border-top-left-radius: 150px;
+  position: relative;
+  padding: 90px 80px;
+  overflow: hidden;
 }
 
-.content{
-    position: relative;
-    margin: 0;
-    top:170px;
-    /* width: 100vw; */
-    background-color: rgb(255, 255, 255);
-    border-top-left-radius: 40px;
-    padding: 30px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.content {
+  /* position: relative;
+  margin: 0;
+  top: 170px; */
+  /* width: 100vw; */
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 40px;
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.answers{
-    margin-top: 2rem;
+.answers {
+  margin-top: 2rem;
 }
 
 .answerslist > *:not(:last-child) {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
-.answersitem{
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
-    gap: 1rem;
-    box-shadow: 0 0 3rem -0.5rem rgb(0, 0 ,0, 0.15);
-    border-radius: 105px;
-    user-select: none;
-    transition: 0.2s;
+.answersitem {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  gap: 1rem;
+  box-shadow: 0 0 3rem -0.5rem rgb(0, 0, 0, 0.15);
+  border-radius: 105px;
+  user-select: none;
+  transition: 0.2s;
 }
 
+.answernumber {
+  width: 3rem;
+  /* aspect-ratio: 1; */
+  border-radius: 50%;
 
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
 
-.answernumber{
-    width: 3rem;
-    /* aspect-ratio: 1; */
-    border-radius: 50%;
-
-    color: white;
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-    line-height: 3rem;
-
-    background-color: #ffd233;
-    scale: 1.2;
+  background-color: #ffd233;
+  scale: 1.2;
 }
 
-.answersitem:active{
-    background-color:darkgrey;
+.answersitem:active {
+  background-color: darkgrey;
 }
 
 /* 

@@ -21,18 +21,13 @@ body {
   background-size: cover;
   height: 100vh;
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
 .questionPage {
-  background-image: url(./start-page/start-up.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
   position: relative;
-  display: flex;
-  justify-content: center;
+  height: 100%;
 }
 
 .resultPage {
@@ -41,7 +36,7 @@ body {
   background-size: cover;
   width: 100%;
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;
   padding-top: 25px;
   position: relative;
@@ -104,6 +99,64 @@ body {
   bottom: 5px;
 }
 /* start page */
+/* -------------------------------------------------- */
+/* question page */
+.qphoto1{
+  position: absolute;
+  height: 260px;
+}
+
+.qcontent{
+  position: relative;
+  margin: 0;
+  top:170px;
+  /* width: 100vw; */
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 40px;
+  padding: 30px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answers{
+  margin-top: 2rem;
+}
+
+.answerslist > *:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.answersitem{
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  gap: 1rem;
+  box-shadow: 0 0 3rem -0.5rem rgb(0, 0 ,0, 0.15);
+  border-radius: 105px;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.answernumber{
+  width: 3rem;
+  /* aspect-ratio: 1; */
+  border-radius: 50%;
+
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
+
+  background-color: #ffd233;
+  scale: 1.2;
+}
+
+.answersitem:active{
+  background-color:darkgrey;
+}
+/* question page */
 /* -------------------------------------------------- */
 /* result page */
 
